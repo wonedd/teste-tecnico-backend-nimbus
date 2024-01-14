@@ -1,0 +1,15 @@
+{
+  "name": "teste-tecnico-backend-nimbus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/get-damage-summary-by-date/controller.test.js",
+    "start": "node index.js",
+    "setup": "node data/setup-database.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
